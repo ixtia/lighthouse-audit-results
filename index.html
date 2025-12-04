@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lighthouse Audit Results - Dashboard</title>
-<style>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lighthouse Audit Results - Dashboard</title>
+  <style>
     * {
       margin: 0;
       padding: 0;
@@ -52,13 +52,13 @@
       background: white;
       border-radius: 12px;
       padding: 25px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.2s, box-shadow 0.2s;
     }
 
     .domain-card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     }
 
     .domain-card__header {
@@ -128,7 +128,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 1.2em;
+      font-size: 4em;
       font-weight: bold;
       color: #333;
     }
@@ -177,264 +177,501 @@
         font-size: 2em;
       }
     }
-  
-</style>
+  </style>
 </head>
+
 <body>
-<div class="container">
-<header class="header">
-<h1 class="header__title">Lighthouse Audit Results</h1>
-<p class="header__subtitle">Dashboard de análisis de rendimiento web</p>
-</header>
-<div class="domains-grid">
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">tegodercosmetics.com</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">726 páginas</span>
-<span class="domain-card__date">1 dic 2025, 17:31</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="82.93804605477052" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">67</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="120.63715789784806" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">52</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="30.159289474462014" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">88</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="20.106192982974676" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">92</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="35.18583772020568" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">86</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="tegodercosmetics-com-1764606309056/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">bioespana.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">39 páginas</span>
-<span class="domain-card__date">1 dic 2025, 17:13</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="65.3451271946677" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">74</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="70.37167544041137" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">72</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="30.159289474462014" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">88</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="2.5132741228718487" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">99</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="2.5132741228718487" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">99</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="bioespana-es-1764605586830/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">oncdermology.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">47 páginas</span>
-<span class="domain-card__date">1 dic 2025, 17:00</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="70.37167544041137" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">72</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="103.04423903774523" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">59</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="17.592918860102827" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">93</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="2.5132741228718487" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">99</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="7.539822368615518" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">97</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="oncdermology-es-1764604785510/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">yvoireiberia.com</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">16 páginas</span>
-<span class="domain-card__date">1 dic 2025, 16:50</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="75.39822368615503" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">70</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="113.09733552923254" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">55</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="30.159289474462014" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">88</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="2.5132741228718487" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">99</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="37.69911184307753" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">85</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="yvoireiberia-com-1764604200677/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">lavigor.com</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">201 páginas</span>
-<span class="domain-card__date">1 dic 2025, 13:54</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="82.93804605477052" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">67</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="118.1238837749762" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">53</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="45.23893421169302" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">82</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="10.053096491487338" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">96</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="52.77875658030851" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">79</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="lavigor-com-1764593486329/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">grupotegor.com</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">12 páginas</span>
-<span class="domain-card__date">1 dic 2025, 13:24</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="57.80530482605218" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">77</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="60.31857894892403" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">76</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="17.592918860102827" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">93</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="0" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">100</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="10.053096491487338" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">96</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="grupotegor-com-1764591840353/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">laboratoriostegor.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">256 páginas</span>
-<span class="domain-card__date">1 dic 2025, 10:44</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="77.91149780902688" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">69</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="120.63715789784806" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">52</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="25.132741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">90</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="7.539822368615518" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">97</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="20.106192982974676" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">92</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="1764582097533/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">laboratoriostegor.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">256 páginas</span>
-<span class="domain-card__date">1 dic 2025, 10:44</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="77.91149780902688" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">69</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="120.63715789784806" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">52</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="25.132741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">90</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="7.539822368615518" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">97</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="20.106192982974676" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">92</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="laboratoriostegor-es-1764582097533/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">laboratoriostegor.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">10 páginas</span>
-<span class="domain-card__date">1 dic 2025, 10:33</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="70.37167544041137" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">72</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="115.61060965210439" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">54</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="12.566370614359187" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">95</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="0" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">100</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="12.566370614359187" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">95</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="1764581467169/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">laboratoriostegor.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">3 páginas</span>
-<span class="domain-card__date">1 dic 2025, 09:47</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="70.37167544041137" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">72</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="113.09733552923254" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">55</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="17.592918860102827" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">93</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="0" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">100</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="0" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">100</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="1764578716819/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">laboratoriostegor.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">3 páginas</span>
-<span class="domain-card__date">1 dic 2025, 09:39</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="72.88494956328321" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">71</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="118.1238837749762" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">53</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="17.592918860102827" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">93</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="0" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">100</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="0" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">100</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<a href="1764578230970/index.html" class="domain-card__link">Ver informe detallado →</a>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">laboratoriostegor.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">0 páginas</span>
-<span class="domain-card__date">1 dic 2025, 09:35</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<span class="domain-card__link domain-card__link--disabled">Informe no disponible</span>
-</div>
-</div>
-<div class="domain-card">
-<div class="domain-card__header">
-<h2 class="domain-card__title">laboratoriostegor.es</h2>
-<div class="domain-card__meta">
-<span class="domain-card__pages">0 páginas</span>
-<span class="domain-card__date">28 nov 2025, 21:45</span>
-</div>
-</div>
-<div class="domain-card__scores">
-<div class="domain-card__overall">
-<div class="domain-card__overall-label">Score General</div>
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">Overall</div></div></div>
-<div class="domain-card__categories">
-<div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">Performance</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">Accessibility</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">Best Practices</div></div><div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120"><circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8"></circle><circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ff4e42" stroke-width="8" stroke-dasharray="251.32741228718345" stroke-dashoffset="251.32741228718345" transform="rotate(-90 60 60)" stroke-linecap="round"></circle></svg><div class="domain-gauge__percentage">0</div><div class="domain-gauge__label">SEO</div></div></div>
-</div>
-<div class="domain-card__footer">
-<span class="domain-card__link domain-card__link--disabled">Informe no disponible</span>
-</div>
-</div>
-</div>
-</div>
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">Lighthouse Audit Results</h1>
+      <p class="header__subtitle">Dashboard de análisis de rendimiento web</p>
+    </header>
+    <div class="domains-grid">
+      <div class="domain-card">
+        <div class="domain-card__header">
+          <h2 class="domain-card__title">tegodercosmetics.com</h2>
+          <div class="domain-card__meta">
+            <span class="domain-card__pages">726 páginas</span>
+            <span class="domain-card__date">1 dic 2025, 17:31</span>
+          </div>
+        </div>
+        <div class="domain-card__scores">
+          <div class="domain-card__overall">
+            <div class="domain-card__overall-label">Score General</div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="82.93804605477052"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">67</div>
+              <div class="domain-gauge__label">Overall</div>
+            </div>
+          </div>
+          <div class="domain-card__categories">
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="120.63715789784806"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">52</div>
+              <div class="domain-gauge__label">Performance</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="30.159289474462014"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">88</div>
+              <div class="domain-gauge__label">Accessibility</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="20.106192982974676"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">92</div>
+              <div class="domain-gauge__label">Best Practices</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="35.18583772020568"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">86</div>
+              <div class="domain-gauge__label">SEO</div>
+            </div>
+          </div>
+        </div>
+        <div class="domain-card__footer">
+          <a href="tegodercosmetics-com-1764606309056/index.html" class="domain-card__link">Ver informe detallado →</a>
+        </div>
+      </div>
+      <div class="domain-card">
+        <div class="domain-card__header">
+          <h2 class="domain-card__title">bioespana.es</h2>
+          <div class="domain-card__meta">
+            <span class="domain-card__pages">39 páginas</span>
+            <span class="domain-card__date">1 dic 2025, 17:13</span>
+          </div>
+        </div>
+        <div class="domain-card__scores">
+          <div class="domain-card__overall">
+            <div class="domain-card__overall-label">Score General</div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="65.3451271946677"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">74</div>
+              <div class="domain-gauge__label">Overall</div>
+            </div>
+          </div>
+          <div class="domain-card__categories">
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="70.37167544041137"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">72</div>
+              <div class="domain-gauge__label">Performance</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="30.159289474462014"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">88</div>
+              <div class="domain-gauge__label">Accessibility</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="2.5132741228718487"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">99</div>
+              <div class="domain-gauge__label">Best Practices</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="2.5132741228718487"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">99</div>
+              <div class="domain-gauge__label">SEO</div>
+            </div>
+          </div>
+        </div>
+        <div class="domain-card__footer">
+          <a href="bioespana-es-1764605586830/index.html" class="domain-card__link">Ver informe detallado →</a>
+        </div>
+      </div>
+      <div class="domain-card">
+        <div class="domain-card__header">
+          <h2 class="domain-card__title">oncdermology.es</h2>
+          <div class="domain-card__meta">
+            <span class="domain-card__pages">47 páginas</span>
+            <span class="domain-card__date">1 dic 2025, 17:00</span>
+          </div>
+        </div>
+        <div class="domain-card__scores">
+          <div class="domain-card__overall">
+            <div class="domain-card__overall-label">Score General</div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="70.37167544041137"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">72</div>
+              <div class="domain-gauge__label">Overall</div>
+            </div>
+          </div>
+          <div class="domain-card__categories">
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="103.04423903774523"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">59</div>
+              <div class="domain-gauge__label">Performance</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="17.592918860102827"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">93</div>
+              <div class="domain-gauge__label">Accessibility</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="2.5132741228718487"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">99</div>
+              <div class="domain-gauge__label">Best Practices</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="7.539822368615518"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">97</div>
+              <div class="domain-gauge__label">SEO</div>
+            </div>
+          </div>
+        </div>
+        <div class="domain-card__footer">
+          <a href="oncdermology-es-1764604785510/index.html" class="domain-card__link">Ver informe detallado →</a>
+        </div>
+      </div>
+      <div class="domain-card">
+        <div class="domain-card__header">
+          <h2 class="domain-card__title">yvoireiberia.com</h2>
+          <div class="domain-card__meta">
+            <span class="domain-card__pages">16 páginas</span>
+            <span class="domain-card__date">1 dic 2025, 16:50</span>
+          </div>
+        </div>
+        <div class="domain-card__scores">
+          <div class="domain-card__overall">
+            <div class="domain-card__overall-label">Score General</div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="75.39822368615503"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">70</div>
+              <div class="domain-gauge__label">Overall</div>
+            </div>
+          </div>
+          <div class="domain-card__categories">
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="113.09733552923254"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">55</div>
+              <div class="domain-gauge__label">Performance</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="30.159289474462014"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">88</div>
+              <div class="domain-gauge__label">Accessibility</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="2.5132741228718487"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">99</div>
+              <div class="domain-gauge__label">Best Practices</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="37.69911184307753"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">85</div>
+              <div class="domain-gauge__label">SEO</div>
+            </div>
+          </div>
+        </div>
+        <div class="domain-card__footer">
+          <a href="yvoireiberia-com-1764604200677/index.html" class="domain-card__link">Ver informe detallado →</a>
+        </div>
+      </div>
+      <div class="domain-card">
+        <div class="domain-card__header">
+          <h2 class="domain-card__title">lavigor.com</h2>
+          <div class="domain-card__meta">
+            <span class="domain-card__pages">201 páginas</span>
+            <span class="domain-card__date">1 dic 2025, 13:54</span>
+          </div>
+        </div>
+        <div class="domain-card__scores">
+          <div class="domain-card__overall">
+            <div class="domain-card__overall-label">Score General</div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="82.93804605477052"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">67</div>
+              <div class="domain-gauge__label">Overall</div>
+            </div>
+          </div>
+          <div class="domain-card__categories">
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="118.1238837749762"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">53</div>
+              <div class="domain-gauge__label">Performance</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="45.23893421169302"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">82</div>
+              <div class="domain-gauge__label">Accessibility</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="10.053096491487338"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">96</div>
+              <div class="domain-gauge__label">Best Practices</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="52.77875658030851"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">79</div>
+              <div class="domain-gauge__label">SEO</div>
+            </div>
+          </div>
+        </div>
+        <div class="domain-card__footer">
+          <a href="lavigor-com-1764593486329/index.html" class="domain-card__link">Ver informe detallado →</a>
+        </div>
+      </div>
+      <div class="domain-card">
+        <div class="domain-card__header">
+          <h2 class="domain-card__title">grupotegor.com</h2>
+          <div class="domain-card__meta">
+            <span class="domain-card__pages">12 páginas</span>
+            <span class="domain-card__date">1 dic 2025, 13:24</span>
+          </div>
+        </div>
+        <div class="domain-card__scores">
+          <div class="domain-card__overall">
+            <div class="domain-card__overall-label">Score General</div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="57.80530482605218"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">77</div>
+              <div class="domain-gauge__label">Overall</div>
+            </div>
+          </div>
+          <div class="domain-card__categories">
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="60.31857894892403"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">76</div>
+              <div class="domain-gauge__label">Performance</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="17.592918860102827"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">93</div>
+              <div class="domain-gauge__label">Accessibility</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="0" transform="rotate(-90 60 60)"
+                  stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">100</div>
+              <div class="domain-gauge__label">Best Practices</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="10.053096491487338"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">96</div>
+              <div class="domain-gauge__label">SEO</div>
+            </div>
+          </div>
+        </div>
+        <div class="domain-card__footer">
+          <a href="grupotegor-com-1764591840353/index.html" class="domain-card__link">Ver informe detallado →</a>
+        </div>
+      </div>
+      <div class="domain-card">
+        <div class="domain-card__header">
+          <h2 class="domain-card__title">laboratoriostegor.es</h2>
+          <div class="domain-card__meta">
+            <span class="domain-card__pages">256 páginas</span>
+            <span class="domain-card__date">1 dic 2025, 10:44</span>
+          </div>
+        </div>
+        <div class="domain-card__scores">
+          <div class="domain-card__overall">
+            <div class="domain-card__overall-label">Score General</div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="77.91149780902688"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">69</div>
+              <div class="domain-gauge__label">Overall</div>
+            </div>
+          </div>
+          <div class="domain-card__categories">
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#ffa400" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="120.63715789784806"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">52</div>
+              <div class="domain-gauge__label">Performance</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="25.132741228718345"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">90</div>
+              <div class="domain-gauge__label">Accessibility</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="7.539822368615518"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">97</div>
+              <div class="domain-gauge__label">Best Practices</div>
+            </div>
+            <div class="domain-gauge"><svg class="domain-gauge__wrapper" viewBox="0 0 120 120">
+                <circle class="domain-gauge__base" cx="60" cy="60" r="54" fill="none" stroke="#e0e0e0" stroke-width="8">
+                </circle>
+                <circle class="domain-gauge__arc" cx="60" cy="60" r="54" fill="none" stroke="#0cce6b" stroke-width="8"
+                  stroke-dasharray="251.32741228718345" stroke-dashoffset="20.106192982974676"
+                  transform="rotate(-90 60 60)" stroke-linecap="round"></circle>
+              </svg>
+              <div class="domain-gauge__percentage">92</div>
+              <div class="domain-gauge__label">SEO</div>
+            </div>
+          </div>
+        </div>
+        <div class="domain-card__footer">
+          <a href="1764582097533/index.html" class="domain-card__link">Ver informe detallado →</a>
+        </div>
+      </div>
+
+
 </body>
+
 </html>

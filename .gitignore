@@ -3,6 +3,10 @@
 *.tar.gz
 *.rar
 
+# Archivos temporales de Office
+~$*
+*.tmp
+
 # Archivos de sistema
 .DS_Store
 Thumbs.db
