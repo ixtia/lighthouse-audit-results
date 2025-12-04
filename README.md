@@ -48,8 +48,12 @@ Una vez desplegado, el dashboard estará disponible en:
 ## API de Datos
 
 Los datos JSON están disponibles directamente vía GitHub Raw:
-- `https://raw.githubusercontent.com/ubaldoluis/lighthouse-audit-results/main/{directorio}/audit.json`
-- `https://raw.githubusercontent.com/ubaldoluis/lighthouse-audit-results/main/{directorio}/site-info.json`
+- `https://raw.githubusercontent.com/ixtia/lighthouse-audit-results/main/{directorio}/audit.json`
+- `https://raw.githubusercontent.com/ixtia/lighthouse-audit-results/main/{directorio}/site-info.json`
 
 Esto permite que LLMs y otras herramientas accedan a los datos directamente.
+
+## Repositorio
+
+**URL:** https://github.com/ixtia/lighthouse-audit-results
 
