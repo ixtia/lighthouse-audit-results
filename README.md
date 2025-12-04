@@ -11,21 +11,22 @@ Este repositorio contiene los resultados de las auditorías de Lighthouse realiz
   - `report.xlsx` - Informe Excel con múltiples hojas
   - `site-info.json` - Información básica del sitio auditado
 
-## Despliegue en Cloudflare Pages
+## Despliegue en GitHub Pages
 
-### Configuración IMPORTANTE
+### Configuración (MUY SIMPLE)
 
-1. Conecta este repositorio a Cloudflare Pages
-2. **Configuración de build:**
-   - **Framework preset**: `None` o `Other`
-   - **Build command**: `./build.sh` (o `bash build.sh` si no funciona)
-   - **Build output directory**: `/` (raíz del repositorio)
-   - **Root directory**: `/` (raíz del repositorio)
-   - **Deploy command**: (dejar vacío)
+1. Ve a la configuración del repositorio en GitHub:
+   - https://github.com/ixtia/lighthouse-audit-results/settings/pages
 
-Se incluyen dos opciones para el build:
-- `package.json` con script `npm run build` (si Cloudflare ejecuta correctamente `npm run build`)
-- `build.sh` script de shell (alternativa si hay problemas con npm)
+2. En la sección "Source":
+   - Selecciona **Branch**: `main`
+   - Selecciona **Folder**: `/` (root)
+   - Haz clic en **Save**
+
+3. ¡Listo! En unos minutos el sitio estará disponible en:
+   - `https://ixtia.github.io/lighthouse-audit-results/`
+
+El archivo `.nojekyll` asegura que GitHub Pages sirva los archivos estáticos sin procesamiento de Jekyll.
 
 ### Actualización automática
 
@@ -44,12 +45,12 @@ Para actualizar los resultados automáticamente después de cada auditoría:
    git push origin main
    ```
 
-Cloudflare Pages se actualizará automáticamente.
+GitHub Pages se actualizará automáticamente en 1-2 minutos.
 
 ## Acceso
 
 Una vez desplegado, el dashboard estará disponible en:
-- `https://lighthouse-audit-results.pages.dev` (o tu dominio personalizado)
+- `https://ixtia.github.io/lighthouse-audit-results/`
 
 ## API de Datos
 
