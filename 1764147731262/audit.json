@@ -1,0 +1,470 @@
+{
+  "url": "https://ejemplo.com",
+  "numberOfAudits": 5,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+  "lighthouseVersion": "10.0.0",
+  "startGeneratedTime": "2025-11-26T09:02:11.262Z",
+  "overallScore": 78.5,
+  "runtimeConfig": {
+    "environment": [
+      {
+        "name": "Chrome",
+        "description": "Chrome browser",
+        "enabled": true
+      }
+    ]
+  },
+  "scoreByPage": {
+    "https://ejemplo.com": {
+      "pageScore": 85,
+      "performance": {
+        "score": 88
+      },
+      "accessibility": {
+        "score": 92
+      },
+      "best-practices": {
+        "score": 80
+      },
+      "progressive-web-app": {
+        "score": 45
+      }
+    },
+    "https://ejemplo.com/about": {
+      "pageScore": 75,
+      "performance": {
+        "score": 72
+      },
+      "accessibility": {
+        "score": 88
+      },
+      "best-practices": {
+        "score": 75
+      },
+      "progressive-web-app": {
+        "score": 30
+      }
+    },
+    "https://ejemplo.com/products": {
+      "pageScore": 82,
+      "performance": {
+        "score": 85
+      },
+      "accessibility": {
+        "score": 90
+      },
+      "best-practices": {
+        "score": 78
+      },
+      "progressive-web-app": {
+        "score": 50
+      }
+    },
+    "https://ejemplo.com/contact": {
+      "pageScore": 70,
+      "performance": {
+        "score": 65
+      },
+      "accessibility": {
+        "score": 85
+      },
+      "best-practices": {
+        "score": 70
+      },
+      "progressive-web-app": {
+        "score": 25
+      }
+    },
+    "https://ejemplo.com/blog": {
+      "pageScore": 80,
+      "performance": {
+        "score": 82
+      },
+      "accessibility": {
+        "score": 88
+      },
+      "best-practices": {
+        "score": 78
+      },
+      "progressive-web-app": {
+        "score": 40
+      }
+    }
+  },
+  "audit": {
+    "performance": {
+      "description": "Performance metrics measure how quickly your site loads and responds to user input.",
+      "overallScore": 78.4,
+      "results": {
+        "first-contentful-paint": {
+          "description": "First Contentful Paint marks the time at which the first text or image is rendered.",
+          "helpText": "Reduce render-blocking resources, eliminate render-blocking stylesheets, and defer unused CSS.",
+          "category": "performance",
+          "group": "metrics",
+          "weight": 1,
+          "overallScore": 85,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 90
+            },
+            "https://ejemplo.com/about": {
+              "score": 80
+            },
+            "https://ejemplo.com/products": {
+              "score": 88
+            },
+            "https://ejemplo.com/contact": {
+              "score": 75
+            },
+            "https://ejemplo.com/blog": {
+              "score": 92
+            }
+          }
+        },
+        "largest-contentful-paint": {
+          "description": "Largest Contentful Paint (LCP) measures loading performance. To provide a good user experience, LCP should occur within 2.5 seconds of when the page first starts loading.",
+          "helpText": "Optimize images, preload important resources, reduce server response times, and eliminate render-blocking resources.",
+          "category": "performance",
+          "group": "metrics",
+          "weight": 1,
+          "overallScore": 72,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 75
+            },
+            "https://ejemplo.com/about": {
+              "score": 65
+            },
+            "https://ejemplo.com/products": {
+              "score": 80
+            },
+            "https://ejemplo.com/contact": {
+              "score": 60
+            },
+            "https://ejemplo.com/blog": {
+              "score": 78
+            }
+          }
+        },
+        "total-blocking-time": {
+          "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds.",
+          "helpText": "Reduce JavaScript execution time, minimize main-thread work, and reduce the impact of third-party code.",
+          "category": "performance",
+          "group": "metrics",
+          "weight": 1,
+          "overallScore": 88,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 92
+            },
+            "https://ejemplo.com/about": {
+              "score": 85
+            },
+            "https://ejemplo.com/products": {
+              "score": 90
+            },
+            "https://ejemplo.com/contact": {
+              "score": 82
+            },
+            "https://ejemplo.com/blog": {
+              "score": 91
+            }
+          }
+        },
+        "cumulative-layout-shift": {
+          "description": "Cumulative Layout Shift (CLS) measures visual stability. To provide a good user experience, pages should maintain a CLS score of 0.1 or less.",
+          "helpText": "Avoid large layout shifts, ensure images and videos have size attributes, and reserve space for ads and embeds.",
+          "category": "performance",
+          "group": "metrics",
+          "weight": 1,
+          "overallScore": 65,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 70
+            },
+            "https://ejemplo.com/about": {
+              "score": 55
+            },
+            "https://ejemplo.com/products": {
+              "score": 68
+            },
+            "https://ejemplo.com/contact": {
+              "score": 58
+            },
+            "https://ejemplo.com/blog": {
+              "score": 74
+            }
+          }
+        }
+      }
+    },
+    "accessibility": {
+      "description": "These checks highlight opportunities to improve the accessibility of your web app. Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+      "overallScore": 88.6,
+      "results": {
+        "image-alt": {
+          "description": "Image elements do not have [alt] attributes",
+          "helpText": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute.",
+          "category": "accessibility",
+          "group": "a11y",
+          "weight": 1,
+          "overallScore": 95,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 98
+            },
+            "https://ejemplo.com/about": {
+              "score": 92
+            },
+            "https://ejemplo.com/products": {
+              "score": 96
+            },
+            "https://ejemplo.com/contact": {
+              "score": 94
+            },
+            "https://ejemplo.com/blog": {
+              "score": 95
+            }
+          }
+        },
+        "aria-allowed-attr": {
+          "description": "ARIA attributes must conform to valid values",
+          "helpText": "Fix invalid ARIA attribute values to ensure assistive technologies can interpret your content correctly.",
+          "category": "accessibility",
+          "group": "a11y",
+          "weight": 1,
+          "overallScore": 85,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 90
+            },
+            "https://ejemplo.com/about": {
+              "score": 80
+            },
+            "https://ejemplo.com/products": {
+              "score": 88
+            },
+            "https://ejemplo.com/contact": {
+              "score": 82
+            },
+            "https://ejemplo.com/blog": {
+              "score": 85
+            }
+          }
+        },
+        "color-contrast": {
+          "description": "Background and foreground colors do not have sufficient contrast ratio",
+          "helpText": "Low-contrast text is difficult or impossible for many users to read. Use a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text.",
+          "category": "accessibility",
+          "group": "a11y",
+          "weight": 1,
+          "overallScore": 82,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 85
+            },
+            "https://ejemplo.com/about": {
+              "score": 78
+            },
+            "https://ejemplo.com/products": {
+              "score": 84
+            },
+            "https://ejemplo.com/contact": {
+              "score": 80
+            },
+            "https://ejemplo.com/blog": {
+              "score": 83
+            }
+          }
+        }
+      }
+    },
+    "best-practices": {
+      "description": "These checks highlight opportunities to improve the code health of your web app.",
+      "overallScore": 76.2,
+      "results": {
+        "uses-https": {
+          "description": "Does not use HTTPS",
+          "helpText": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users.",
+          "category": "best-practices",
+          "group": "security",
+          "weight": 1,
+          "overallScore": 100,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 100
+            },
+            "https://ejemplo.com/about": {
+              "score": 100
+            },
+            "https://ejemplo.com/products": {
+              "score": 100
+            },
+            "https://ejemplo.com/contact": {
+              "score": 100
+            },
+            "https://ejemplo.com/blog": {
+              "score": 100
+            }
+          }
+        },
+        "no-vulnerable-libraries": {
+          "description": "Detected outdated or vulnerable libraries",
+          "helpText": "Update all JavaScript libraries to their latest versions to reduce the risk of vulnerabilities.",
+          "category": "best-practices",
+          "group": "security",
+          "weight": 1,
+          "overallScore": 65,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 70
+            },
+            "https://ejemplo.com/about": {
+              "score": 60
+            },
+            "https://ejemplo.com/products": {
+              "score": 68
+            },
+            "https://ejemplo.com/contact": {
+              "score": 62
+            },
+            "https://ejemplo.com/blog": {
+              "score": 65
+            }
+          }
+        },
+        "is-on-https": {
+          "description": "Does not provide a valid certificate",
+          "helpText": "All network requests should use HTTPS to ensure secure communication.",
+          "category": "best-practices",
+          "group": "security",
+          "weight": 1,
+          "overallScore": 100,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 100
+            },
+            "https://ejemplo.com/about": {
+              "score": 100
+            },
+            "https://ejemplo.com/products": {
+              "score": 100
+            },
+            "https://ejemplo.com/contact": {
+              "score": 100
+            },
+            "https://ejemplo.com/blog": {
+              "score": 100
+            }
+          }
+        },
+        "viewport": {
+          "description": "Does not have a viewport meta tag",
+          "helpText": "Add a viewport meta tag to ensure your page renders correctly on mobile devices.",
+          "category": "best-practices",
+          "group": "mobile",
+          "weight": 1,
+          "overallScore": 100,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 100
+            },
+            "https://ejemplo.com/about": {
+              "score": 100
+            },
+            "https://ejemplo.com/products": {
+              "score": 100
+            },
+            "https://ejemplo.com/contact": {
+              "score": 100
+            },
+            "https://ejemplo.com/blog": {
+              "score": 100
+            }
+          }
+        }
+      }
+    },
+    "progressive-web-app": {
+      "description": "These checks validate the aspects of a Progressive Web App.",
+      "overallScore": 38,
+      "results": {
+        "installable-manifest": {
+          "description": "Does not provide a valid web app manifest",
+          "helpText": "Provide a valid web app manifest with at least a name and short_name, icons, start_url, and display.",
+          "category": "pwa",
+          "group": "pwa",
+          "weight": 1,
+          "overallScore": 35,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 40
+            },
+            "https://ejemplo.com/about": {
+              "score": 30
+            },
+            "https://ejemplo.com/products": {
+              "score": 45
+            },
+            "https://ejemplo.com/contact": {
+              "score": 25
+            },
+            "https://ejemplo.com/blog": {
+              "score": 35
+            }
+          }
+        },
+        "service-worker": {
+          "description": "Does not register a service worker",
+          "helpText": "Register a service worker to enable offline functionality and improve performance.",
+          "category": "pwa",
+          "group": "pwa",
+          "weight": 1,
+          "overallScore": 0,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 0
+            },
+            "https://ejemplo.com/about": {
+              "score": 0
+            },
+            "https://ejemplo.com/products": {
+              "score": 0
+            },
+            "https://ejemplo.com/contact": {
+              "score": 0
+            },
+            "https://ejemplo.com/blog": {
+              "score": 0
+            }
+          }
+        },
+        "offline-start-url": {
+          "description": "Does not respond with a 200 when offline",
+          "helpText": "Ensure your service worker provides an offline fallback page.",
+          "category": "pwa",
+          "group": "pwa",
+          "weight": 1,
+          "overallScore": 0,
+          "pages": {
+            "https://ejemplo.com": {
+              "score": 0
+            },
+            "https://ejemplo.com/about": {
+              "score": 0
+            },
+            "https://ejemplo.com/products": {
+              "score": 0
+            },
+            "https://ejemplo.com/contact": {
+              "score": 0
+            },
+            "https://ejemplo.com/blog": {
+              "score": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

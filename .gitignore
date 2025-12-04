@@ -1,0 +1,16 @@
+# Archivos temporales y comprimidos
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos de configuración local
+.env
+.env.local
+
