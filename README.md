@@ -13,13 +13,17 @@ Este repositorio contiene los resultados de las auditorías de Lighthouse realiz
 
 ## Despliegue en Cloudflare Pages
 
-### Configuración
+### Configuración IMPORTANTE
 
 1. Conecta este repositorio a Cloudflare Pages
-2. Configuración de build:
-   - **Build command**: (dejar vacío, no requiere build)
+2. **Configuración de build (CRÍTICO):**
+   - **Framework preset**: `None` o `Other`
+   - **Build command**: **DEJAR COMPLETAMENTE VACÍO** (no poner nada, ni siquiera espacios)
    - **Build output directory**: `/` (raíz del repositorio)
    - **Root directory**: `/` (raíz del repositorio)
+   - **Deploy command**: **DEJAR COMPLETAMENTE VACÍO** (no usar `wrangler deploy`)
+
+⚠️ **IMPORTANTE**: Si ves un error sobre `wrangler deploy`, significa que hay un comando de deploy configurado. Debe estar **vacío** para archivos estáticos.
 
 ### Actualización automática
 
