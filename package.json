@@ -1,0 +1,9 @@
+{
+  "name": "lighthouse-audit-results",
+  "version": "1.0.0",
+  "description": "Lighthouse audit results dashboard - Static site",
+  "scripts": {
+    "build": "echo 'No build needed - static site'"
+  }
+}
+
