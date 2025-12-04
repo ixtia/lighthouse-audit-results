@@ -18,12 +18,14 @@ Este repositorio contiene los resultados de las auditorías de Lighthouse realiz
 1. Conecta este repositorio a Cloudflare Pages
 2. **Configuración de build:**
    - **Framework preset**: `None` o `Other`
-   - **Build command**: `npm run build` (o dejar vacío si Cloudflare lo permite)
+   - **Build command**: `./build.sh` (o `bash build.sh` si no funciona)
    - **Build output directory**: `/` (raíz del repositorio)
    - **Root directory**: `/` (raíz del repositorio)
    - **Deploy command**: (dejar vacío)
 
-El archivo `package.json` incluye un script de build que no hace nada, solo para satisfacer el requisito de Cloudflare Pages.
+Se incluyen dos opciones para el build:
+- `package.json` con script `npm run build` (si Cloudflare ejecuta correctamente `npm run build`)
+- `build.sh` script de shell (alternativa si hay problemas con npm)
 
 ### Actualización automática
 
